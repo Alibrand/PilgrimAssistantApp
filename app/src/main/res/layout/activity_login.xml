@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".LoginActivity">
+
+<ImageView
+    android:src="@drawable/logo01"
+    android:layout_width="170dp"
+    android:layout_height="170dp"/>
+<TextView
+    android:textSize="16sp"
+    android:textStyle="bold"
+
+    android:text="قم بتسجيل الدخول وابدأ رحلتك..."
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittxt_back"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingVertical="10dp"
+            android:text="الرقم المعرف"
+            android:textStyle="bold"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:background="@color/seperator_color"
+            android:layout_width="2dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_height="match_parent"/>
+        <EditText
+            android:id="@+id/etxt_userid"
+            android:inputType="number"
+            android:paddingRight="5dp"
+            android:hint="اكتب الرقم المعرف هنا"
+            android:background="@color/soil_color"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edittxt_back"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:paddingVertical="10dp"
+            android:text="كلمة المرور"
+            android:textStyle="bold"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"/>
+        <View
+            android:background="@color/seperator_color"
+            android:layout_width="2dp"
+            android:layout_marginHorizontal="2dp"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/etxt_password"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:background="@color/soil_color"
+                android:gravity="right"
+                android:hint="اكتب كلمة المرور هنا"
+                android:inputType="textPassword"
+                android:paddingRight="5dp" />
+
+            <ImageView
+                android:id="@+id/btn_show_hide_password"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_eye_visible_pass"
+
+                app:tint="#938C89" />
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+<TextView
+
+    android:layout_marginTop="10dp"
+    android:text="نسيت كلمة المرور؟"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_signin"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_shadow"
+        android:text="تسجيل الدخول"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_gravity="right"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="إذا لم يكن لديك حساب.."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_create_account"
+            android:text="أنشئ حساباً جديداً"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:shadowColor="#AC6747"
+            android:shadowDx="2"
+            android:shadowDy="1"
+            android:shadowRadius="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

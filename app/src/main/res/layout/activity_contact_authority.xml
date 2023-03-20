@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".ContactAuthorityActivity">
+
+    <ImageView
+        android:src="@drawable/logoicon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+    <TextView
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="خيارات التواصل"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_call_ambulance"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shadow"
+        android:text="اتصال بالاسعاف"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_emergency"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_shadow"
+        android:text="الاتصال بطوارئ المملكة"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_call_police"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_shadow"
+        android:text="الاتصال بشرطة النجدة"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

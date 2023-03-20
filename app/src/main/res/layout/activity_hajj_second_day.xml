@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+
+    android:layout_height="match_parent"
+    tools:context=".HajjSecondDayActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/logoicon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/pilgrim_name"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="التاسع من ذي الحجة"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_marginVertical="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/seperator_color"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_prayers"
+            android:paddingHorizontal="25dp"
+            android:background="@drawable/button_shadow"
+            android:text="أدعية مستحبة"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:textSize="@dimen/default_text_size"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="يرجى الضغط على زر تم عند الانتهاء من أداء النسك المحددة"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:id="@+id/list_nusuk"
+             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+             android:orientation="vertical"
+             android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_next"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="التالي"
+            android:layout_gravity="left"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

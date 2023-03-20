@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+
+    android:layout_height="match_parent"
+    tools:context=".TawafActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/logoicon"
+                android:layout_width="70dp"
+                android:layout_height="70dp"/>
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/pilgrim_name"
+                android:layout_gravity="center_vertical"
+                android:textSize="19sp"
+                android:textStyle="bold"
+                android:text="الطواف"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <View
+            android:layout_marginVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/seperator_color"
+            />
+
+
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="-سيساعدك التطبيق على عد أشواط الطواف "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="-سيقوم التطبيق بعد الأشواط تلقائياً عند بدأ الطواف "
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="-لتصحيح عدد الأشواط يمكنك استخدام الأزرار"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="-عندما تكون جاهزاً اضغط على ابدأ وقم بالطواف مراعياً الشروط واتجاه الطواف بحيث تكون الكعبة المشرفة على يسارك"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_start_tawaf"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="ابدأ"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/ly_laps_controls"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+          android:gravity="center"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_marginTop="5dp"
+                android:padding="15dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="1"
+                    android:id="@+id/text_current_lap"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="الشوط الحالي"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageButton
+                    android:id="@+id/button_increase_laps"
+                    android:background="@drawable/button_shadow"
+                    android:src="@drawable/ic_baseline_add_24"
+                    android:textColor="@color/font_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/default_text_size"
+                    android:shadowColor="#AA4C5656"
+                    android:shadowDx="2"
+                    android:shadowDy="8"
+                    android:shadowRadius="9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="6"
+                    android:id="@+id/text_remaining_laps"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:text="الأشواط المتبقية"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageButton
+                    android:id="@+id/button_decrease_laps"
+                    android:background="@drawable/button_shadow"
+                    android:src="@drawable/ic_baseline_remove_24"
+                    android:textColor="@color/font_color"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/default_text_size"
+                    android:shadowColor="#AA4C5656"
+                    android:shadowDx="2"
+                    android:shadowDy="8"
+                    android:shadowRadius="9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_restart"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="إعادة من جديد"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/text_complete"
+            android:text="لقد أنجزت 7 أشواط "
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_return"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="عودة"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

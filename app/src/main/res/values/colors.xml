@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="soil_color">#E2CFC6</color>
+    <color name="seperator_color">#B19983</color>
+    <color name="button_color">#D5BBAD</color>
+    <color name="font_color">#4C5656</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="complete_green">#FF2D740D</color>
+</resources>

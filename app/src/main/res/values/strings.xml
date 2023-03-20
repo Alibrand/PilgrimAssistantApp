@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Rushd</string>
+    <string name="location_updated">Location Updated: %1$s</string>
+    <string name="launch_activity">Launch activity</string>
+    <string name="remove_location_updates">Remove location updates</string>
+    <string name="title_activity_tracking_pilgrims">TrackingPilgrimsActivity</string>
+    <string name="tawaf_rules">
+        الشرط الثاني: أن يبدأ الطواف من الحجر الأسود وينتهي إليه، والثالث: أن تكون الكعبة على يسار مَن يطوف حولها، والرابع: أن يكون الطواف حول الكعبة، فمن طاف داخل حجر إسماعيل، لم يصح طوافه، لأن حجر إسماعيل من الكعبة، والشرط الخامس أن يكون الطواف سبعة أشواط كاملة، وعند الشك في عدد الأشواط، يُبنى على العدد الأقل.
+    </string>
+</resources>

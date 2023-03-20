@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/logoicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_start_journy"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/button_shadow"
+        android:text="إبدأ رحلتك"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_prayers"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shadow"
+        android:text="الأدعية"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:textSize="@dimen/default_text_size"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_contact_my_organizer"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shadow"
+        android:text="اتصل بمنظم الحملة"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:textSize="@dimen/default_text_size"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_contact_organizer"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shadow"
+        android:text="اتصل بمنظم الحج"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_signout"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shadow"
+        android:text="تسجيل الخروج"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

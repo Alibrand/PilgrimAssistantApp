@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:textDirection="rtl"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_nusuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:text="الشوط الحالي"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/image_check"
+
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_check_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="invisible"
+        android:id="@+id/button_complete"
+        android:paddingHorizontal="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_shadow"
+        android:text="تم"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</RelativeLayout>

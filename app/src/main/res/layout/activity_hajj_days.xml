@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layoutDirection="rtl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".HajjDaysActivity">
+
+    <ImageView
+        android:src="@drawable/logoicon"
+        android:layout_width="130dp"
+        android:layout_height="130dp"/>
+    <TextView
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:text="ايام الحج"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_first_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الأول "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_second_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الثاني "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_third_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الثالث "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_fourth_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الرابع "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_fifth_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الخامس "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_sixth_day"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="25dp"
+        android:drawableLeft="@drawable/ic_baseline_done_all_24"
+        android:background="@drawable/button_shadow"
+        android:text="اليوم الأخير "
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:textSize="@dimen/default_text_size"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_restart"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="20dp"
+
+        android:background="@drawable/button_shadow"
+        android:text="مسح التقدم وإعادة الرحلة"
+        android:textSize="@dimen/default_text_size"
+        android:textColor="@color/font_color"
+        android:textStyle="bold"
+        android:shadowColor="#AA4C5656"
+        android:shadowDx="2"
+        android:shadowDy="8"
+        android:shadowRadius="9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

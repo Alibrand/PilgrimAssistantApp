@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/drawable/button_shadow.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/drawable/edittxt_back.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.129" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/drawable/ic_eye_slash_hide_pass.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/drawable/ic_eye_visible_pass.xml" value="0.1655" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_add_new_pilgrims.xml" value="0.15989583333333332" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_campaign_pilgrims.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_contact_authority.xml" value="0.22604166666666667" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_contact_my_campaign.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_days.xml" value="0.5" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_done.xml" value="0.17074275362318841" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_fifth_day.xml" value="0.15625" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_first_day.xml" value="0.21145833333333333" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_fourth_day.xml" value="0.21" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_last_day.xml" value="0.17074275362318841" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_second_day.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_hajj_third_day.xml" value="0.15364583333333334" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_journy_type.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_main.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_manage_campaign.xml" value="0.22135416666666666" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_new_campaign.xml" value="0.22604166666666667" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_organizer.xml" value="0.24583333333333332" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_pilgrim_info.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_prayers.xml" value="0.25" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_signup.xml" value="0.1" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_tawaf.xml" value="0.21145833333333333" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_tracking_pilgrims.xml" value="0.22604166666666667" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_umrah.xml" value="0.171875" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_umrah_first.xml" value="0.17083333333333334" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_umrah_nusuk.xml" value="0.17083333333333334" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/activity_update_campaign.xml" value="0.22135416666666666" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/list_card_campaign_item.xml" value="0.33" />
+        <entry key="..\:/AndroidProjects/Rushd/app/src/main/res/layout/list_card_nusuk.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

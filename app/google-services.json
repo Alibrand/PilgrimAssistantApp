@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1010710635569",
+    "project_id": "rushd-99bff",
+    "storage_bucket": "rushd-99bff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1010710635569:android:3206b51a2e5d590ee9e110",
+        "android_client_info": {
+          "package_name": "com.cpis498.rushd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1010710635569-32o4porkvegqg9o1apvocgrdpjsglhcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeb36G4PxsFil6T0HI2rQoLzZ4qFnaUtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1010710635569-32o4porkvegqg9o1apvocgrdpjsglhcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

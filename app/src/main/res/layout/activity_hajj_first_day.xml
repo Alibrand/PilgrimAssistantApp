@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:background="@drawable/background"
+
+    android:layout_height="match_parent"
+    tools:context=".HajjFirstDayActivity">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/logoicon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <TextView
+            android:layout_marginRight="5dp"
+            android:id="@+id/pilgrim_name"
+            android:layout_gravity="center_vertical"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="الثامن من ذي الحجة"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:layout_marginVertical="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/seperator_color"
+        />
+
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="center_horizontal"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="طواف القدوم"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="شروط الطواف"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="أولًا: الطَّهَارَة مِنْ الْحَدَثِ الأكبر والأصغر"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="ثانياً: أن يبدأ الطواف من الحجر الأسود وينتهي إليه"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="ثالثاً: أن تكون الكعبة على يسار مَن يطوف حولها"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+        android:layout_marginRight="5dp"
+        android:layout_gravity="right"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:text="رابعاً: أن يكون الطواف حول الكعبة، فمن طاف داخل حجر إسماعيل، لم يصح طوافه"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="خامساً: أن يكون الطواف سبعة أشواط كاملة، وعند الشك في عدد الأشواط، يُبنى على العدد الأقل."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_gravity="right"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="سادساً الموالاة: بأن لا يفصل بين أشواط الطواف فصلاً كبيراً، سواء أكان لحاجة، أم لغير حاجة، فإن فصل فصلاً كبيراً، أعاد الطائف الطواف من أوّله، إلّا أن يكون الفصل للصلاة المفروضة، فيكمل الطواف بناءً على ما طافه من الأشواط بعد انتهاء الصلاة."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_tawaf"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="ابدأ الطواف"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_next"
+            android:paddingHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shadow"
+            android:text="التالي"
+            android:layout_gravity="left"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="@dimen/default_text_size"
+            android:shadowColor="#AA4C5656"
+            android:shadowDx="2"
+            android:shadowDy="8"
+            android:shadowRadius="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
